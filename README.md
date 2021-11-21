@@ -1,5 +1,4 @@
-# Detecting Steel Defects in Manufacturing Images with Neural Networks
-
+##  Detecting Steel Defects in Manufacturing Images with Neural Networks
 ## Aidan Stack - 2021
 
 

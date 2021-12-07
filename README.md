@@ -1,4 +1,5 @@
-#  Detecting Defects in Steel with Neural Networks | Aidan Stack - 2021
+#  Detecting Defects in Steel with Neural Networks 
+## Aidan Stack - 2021
 
 # Navigating this Repository
 

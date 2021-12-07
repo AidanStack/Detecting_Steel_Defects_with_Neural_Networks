@@ -18,17 +18,26 @@ The number of images in the dataset and their relatively high resolution meant t
 # Data Preparation
 
 In order for the neural networks to be able to interpret the training images, the images must first undergo several transformations. The first is to convert the .jpg files into raw arrays. The dataset was fairly clean; all of the images have the same format of 256 by 1600, and have only 1 color channel, meaning they are grayscale. To reduce compute time, the images were reformatted to 256 by 256 upon import. The image arrays were then scaled from a range of 0 to 255, to a range of 0 to 1. The arrays were also flattened to be 1-Dimensional for use in the artificial neural networks, in the convolutional networks notebook, the arrays are again reshaped to a format of 256 x 256 x 1. 
-first 3 images
-<br>
-<h3><center> First three images, all class 0 (no defect) </center></h3>
-
-![nodefect.jpg](attachment:nodefect.jpg)
-
-Only looking at these first images the difficulty of the task becomes clear, as these three images all belong to the same class yet vary widely in their content. 
-<br>
 
 # Binary Classification 
 
 # Multiclass Classification 
 
 # Conclusions
+
+# Navigating This Repository
+
+  Notebooks
+    EDA Notebook - All data understanding steps 
+    Artificial Neural Network - Binary classification using simple networks
+    Convolutional Neural Network - Binary and multiclass classificiation using convolutional networks
+
+  Main Report Notebook - Technical summary covering the entire project from business problem to final conclusions
+  
+  README - You are here 
+
+
+
+
+
+

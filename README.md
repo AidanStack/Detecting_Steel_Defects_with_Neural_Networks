@@ -39,7 +39,9 @@ The first metric to beat was the modeless baseline of 53%, the accuracy you woul
 
 # Multiclass Classification 
 
-In this context images were labelled as one of five classes, '0', meaning no defects present, and '1' through '4' representing each class of defect respectively. The training labels from the binary classification process wouldn't work for this task, so new training labels were created. 
+In this context images were labelled as one of five classes, '0', meaning no defects present, and '1' through '4' representing each class of defect respectively. The training labels from the binary classification process wouldn't work for this task, so new training labels were created. After all the network iterations were complete, final evaluation was run and the networks achieved an accuracy of 79%.
+
+The deployment of a network capable of multiclass classification would largely be up to the manufacturing engineers, as domain knowledge about the various types of defects would determine how each piece was treated. It is easy to imagine however the various new options that multiclass classification would offer, over the simple defect or no defect output of binary classification. With an accuracy of roughly 79%, the network could even be trained for recall of certain classes of defect, if false negatives of that class is more intolerable.
 
 # Conclusions
 

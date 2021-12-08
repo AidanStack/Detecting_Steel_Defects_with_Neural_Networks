@@ -24,10 +24,10 @@ The number of images in the dataset and their relatively high resolution meant t
 # Data Preparation
 
 The images underwent several transformations before they were correctly formatted as inputs to neural networks. 
-* 1. The jpg image files were converted into numpy arrays.
-* 2. To reduce the number of trainable parameters, the images were resized from 1600 x 256 x 1, to 256 x 256. 
-* 3. The values in the arrays were scaled so that instead of ranging from 0 to 255, they ranged from 0 to 1 
-* 4. The arrays were flattened to be 1-Dimensional for use in the artificial neural networks
+* The jpg image files were converted into numpy arrays.
+* To reduce the number of trainable parameters, the images were resized from 1600 x 256 x 1, to 256 x 256. 
+* The values in the arrays were scaled so that instead of ranging from 0 to 255, they ranged from 0 to 1 
+* The arrays were flattened to be 1-Dimensional for use in the artificial neural networks
   * In the convolutional network notebook, the arrays were reshaped to 256 x 256 x 1
 
 # Binary Classification 

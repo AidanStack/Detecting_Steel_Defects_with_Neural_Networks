@@ -32,14 +32,21 @@ The images underwent several transformations before they were correctly formatte
 
 # Binary Classification 
 
+For binary classification, the goal was simply to train the networks to correctly classify an image based on defects present vs no defects present. In addition to the preprocessing already done on the images, the csv included with the original dataset required modification. The list of jpg file names, in conjunction with the provided csv were transformed into one hot encoded labels, the format required by keras. These labels recorded whether each image was a '0' (no defects present) or a '1' (defects present). 
+
+The first metric to beat was the modeless baseline of 53%, the accuracy you would achieve by guessing the majority class (no defects). The performance of different network architectures was explored by first training artificial neural networks, and then moving on to convolutional networks. The final iteration of the artificial networks achieved a 77% accuracy in this binary context. The final convolutional network managed 85% accuracy, due to the specialization of convolutional networks for image classification. Since the C.N.N.s proved the most appropriate for this task, they were used exclusivley in the multiclass classification section. 
+
+
 # Multiclass Classification 
+
+In this context images were labelled as one of five classes, '0', meaning no defects present, and '1' through '4' representing each class of defect respectively. The training labels from the binary classification process wouldn't work for this task, so new training labels were created. 
 
 # Conclusions
 
 # Navigating This Repository
 
   Notebooks
-    EDA Notebook - All data understanding steps 
+    EDA Notebook - All data exploration steps 
     Artificial Neural Network - Binary classification using simple networks
     Convolutional Neural Network - Binary and multiclass classificiation using convolutional networks
 

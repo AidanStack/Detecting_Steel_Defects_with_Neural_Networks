@@ -62,6 +62,8 @@ These reasons "Why", combined with the "How" explored throughout this project, p
   
 # Resources 
 
+[Presentation Slide Deck](https://www.canva.com/design/DAExh_0mJNQ/q6ARsiHI5QzPszSFt8O33g/view?utm_content=DAExh_0mJNQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 [Kaggle Competition (original dataset)](https://www.kaggle.com/c/severstal-steel-defect-detection)
 
 [Severstal](https://www.severstal.com/eng/about/)

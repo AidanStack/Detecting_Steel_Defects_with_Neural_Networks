@@ -43,6 +43,10 @@ In this context images were labelled as one of five classes, '0', meaning no def
 
 # Conclusions
 
+With 1.8 billion tons of crude steel produced in 2020 alone, the enormous scale of the global steel industry means that even small improvements to efficiency would be enough to move the needle, and have real economic and environmental impacts. The global demand for steel is increasing, and that trend is expected to continue, especially as developing nations mature economically, and begin to demand more steel for construction and industry. This means that the earlier the steel industry invests in machine learning solutions, the more time the cost and carbon benefits will have to compound. Steel is a commodity item, which means it often competes solely on the basis of cost. This means computer vision tasks like the one explored in this project are high volume, low cost of error, meaning machine learning is an appropriate approach.
+
+These reasons "Why", combined with the "How" explored throughout this project, prove that a computer vision solution using deep learning, and more specifically convolutional neural networks, is not only appropriate, but viable in this business context.
+
 # Navigating This Repository
 
   Notebooks
@@ -53,6 +57,19 @@ In this context images were labelled as one of five classes, '0', meaning no def
   Main Report Notebook - Technical summary covering the entire project from business problem to final conclusions
   
   README - You are here 
+  
+# Resources 
+
+[Kaggle Competition (original dataset)](https://www.kaggle.com/c/severstal-steel-defect-detection)
+
+[Severstal](https://www.severstal.com/eng/about/)
+
+[Computer Vision in Manufacturing/ ‘Industry 4.0’](https://www.n-ix.com/computer-vision-manufacturing/)
+
+[Defect Mask Visualization Reference](https://www.kaggle.com/go1dfish/clear-mask-visualization-and-simple-eda)
+
+
+
 
 
 
